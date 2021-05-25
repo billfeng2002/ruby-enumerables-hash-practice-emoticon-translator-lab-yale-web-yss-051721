@@ -29,6 +29,9 @@ def get_english_meaning(filepath, emoticon)
     |key, value|
     value[:japanese]==emoticon
   }
+  if(pair==nil)
+    return "Sorry, that emoticon was not found"
+  end
   #binding.pry
   pair[0]
 end
