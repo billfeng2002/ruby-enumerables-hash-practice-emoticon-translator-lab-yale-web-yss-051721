@@ -18,6 +18,7 @@ def get_japanese_emoticon(filepath, emoticon)
   }
   if(pair==nil)
     return "Sorry, that emoticon was not found"
+  end
   pair[1][:japanese]
 end
 
